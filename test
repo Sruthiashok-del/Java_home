@@ -2,3 +2,25 @@ task
 eentry
 exit
 stop
+
+package code_decode;
+public class sruthi_day_testig {
+	enum Day {
+	    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+	}
+	public static void main(String[] args) {
+        Day today = Day.FRIDAY;
+
+        switch (today) {
+            case MONDAY:
+                System.out.println("Start of the week!");
+                break;
+            case FRIDAY:
+                System.out.println("Weekend is near!");
+                break;
+            default:
+                System.out.println("Regular day.");
+        }
+	}
+}
+
